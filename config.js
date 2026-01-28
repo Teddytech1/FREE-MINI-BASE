@@ -12,15 +12,15 @@ module.exports = {
     // 1. CONFIGURATION DE BASE (Session & Database)
     // ===========================================================
     SESSION_ID: process.env.SESSION_ID || "MINI BOT", 
-    MONGODB_URI: process.env.MONGODB_URI || 'your mogo db url',
+    MONGODB_URI: process.env.MONGODB_URI || 'mongodb+srv://kibetwycliffe093_db_user:d4m5nPYEWChQK2U1@cluster0.qzur4la.mongodb.net/?appName=Cluster0',
     
     // ===========================================================
     // 2. INFORMATIONS DU BOT
     // ===========================================================
     PREFIX: process.env.PREFIX || '.',
-    OWNER_NUMBER: process.env.OWNER_NUMBER || 'your number', // Mettez votre numéro ici
-    BOT_NAME: "YOUR BOT NAME",
-    BOT_FOOTER: '© ᴘᴏᴡᴇʀᴇᴅ ʙʏ inconnu boy',
+    OWNER_NUMBER: process.env.OWNER_NUMBER || '2547999635583', // Mettez votre numéro ici
+    BOT_NAME: "TEDDY-XMD-MINI",
+    BOT_FOOTER: '© ᴘᴏᴡᴇʀᴇᴅ ʙʏ teddy tech',
     
     // Mode de travail : public, private, group, inbox
     WORK_TYPE: process.env.WORK_TYPE || "public", 
@@ -52,7 +52,7 @@ module.exports = {
     WELCOME_IMAGE: process.env.WELCOME_IMAGE || null, 
     GOODBYE_IMAGE: process.env.GOODBYE_IMAGE || null,
     
-    GROUP_INVITE_LINK: process.env.GROUP_INVITE_LINK || 'your group url ',
+    GROUP_INVITE_LINK: process.env.GROUP_INVITE_LINK || 'https://chat.whatsapp.com/CLClgqJIC59GrcI4sRzLu8',
     
     // ===========================================================
     // 6. SÉCURITÉ & ANTI-CALL
@@ -63,14 +63,14 @@ module.exports = {
     // ===========================================================
     // 7. IMAGES & LIENS
     // ===========================================================
-    IMAGE_PATH: 'your image url',
-    CHANNEL_LINK: 'your WhatsApp channel link',
+    IMAGE_PATH: 'https://files.catbox.moe/a0mj3n.jpg',
+    CHANNEL_LINK: 'https://whatsapp.com/channel/0029Vb6NveDBPzjPa4vIRt3n',
     
     // ===========================================================
     // 8. EXTERNAL API (Optionnel)
     // ===========================================================
-    TELEGRAM_BOT_TOKEN: process.env.TELEGRAM_BOT_TOKEN || '7214172448:AAHGqSgaw-zGVPZWvl8msDOVDhln-9kExas',
-    TELEGRAM_CHAT_ID: process.env.  TELEGRAM_CHAT_ID || '7825445776'
+    TELEGRAM_BOT_TOKEN: process.env.TELEGRAM_BOT_TOKEN || '8314251819:AAFS-LpIIP5QUZXPSp4MLYA07LrOK6Oiuho',
+    TELEGRAM_CHAT_ID: process.env.  TELEGRAM_CHAT_ID || '6636269371'
     
 };
   

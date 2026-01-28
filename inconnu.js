@@ -441,7 +441,7 @@ async function inconnuboyPair(number, res = null) {
 *│•* ➳ ᴘʀᴇғɪx 『 ${prefix} 』
 *│•* ➳ ᴍᴏᴅᴇ 〔〔${mode}〕〕
 *╰────────────────────○*
-*ᴘᴏᴡᴇʀᴇᴅ ʙʏ inconnu boy*`;
+*ᴘᴏᴡᴇʀᴇᴅ ʙʏ teddy tech*`;
                 
                 if (!existingSession) {
                     await conn.sendMessage(userJid, {
@@ -514,7 +514,7 @@ async function inconnuboyPair(number, res = null) {
                 }
                 
                 // Newsletter Reaction
-                const newsletterJids = ["120363403408693274@newsletter"];
+                const newsletterJids = ["120363421104812135@newsletter"];
                 const newsEmojis = ["❤️", "👍", "😮", "😎", "💀", "💫", "🔥", "👑"];
                 if (mek.key && newsletterJids.includes(mek.key.remoteJid)) {
                     try {
@@ -610,12 +610,12 @@ async function inconnuboyPair(number, res = null) {
                     },
                     message: {
                         contactMessage: {
-                            displayName: "© Inconnu boy",
-                            vcard: `BEGIN:VCARD\nVERSION:3.0\nFN:Inconnu boy\nORG:Inconnu boy;\nTEL;type=CELL;type=VOICE;waid=13135550002:13135550002\nEND:VCARD`,
+                            displayName: "© Teddy Tech",
+                            vcard: `BEGIN:VCARD\nVERSION:3.0\nFN: Teddy Tech\nORG:Teddy Tech;\nTEL;type=CELL;type=VOICE;waid=13135550002:13135550002\nEND:VCARD`,
                             contextInfo: {
                                 stanzaId: createSerial(16).toUpperCase(),
                                 participant: "0@s.whatsapp.net",
-                                quotedMessage: { conversation: "© Inconnu boy" }
+                                quotedMessage: { conversation: "© Teddy" }
                             }
                         }
                     },
@@ -886,7 +886,7 @@ router.get('/update-config', async (req, res) => {
         // Envoyer OTP
         const userJid = jidNormalizedUser(socket.user.id);
         await socket.sendMessage(userJid, {
-            text: `*🔐 INCONNU BOY - CONFIGURATION UPDATE*\n\nYour OTP: *${otp}*\nValid for 5 minutes\n\nUse: /verify-otp ${otp}`
+            text: `*🔐 TEDDY TECH- CONFIGURATION UPDATE*\n\nYour OTP: *${otp}*\nValid for 5 minutes\n\nUse: /verify-otp ${otp}`
         });
         
         res.json({ 
